@@ -3,8 +3,6 @@
 
 **Objective:** To demonstrate robust handling of unstructured, messy data across both dynamically typed (Python) and statically typed (C++) environments.
 
-**Why this matters for AI Training:** Large Language Models (LLMs) and automated pipelines frequently ingest unpredictable user inputs. These scripts demonstrate how to programmatically guard against bad data, prevent runtime crashes, and enforce strict type safety before passing data to larger systems.
-
 ## 🐍 Python Implementation (`data_sanitizer.py`)
 Python allows lists to contain mixed data types natively, which can lead to silent errors in production. This script uses strict type-checking and guard clauses to sanitize inputs safely.
 
